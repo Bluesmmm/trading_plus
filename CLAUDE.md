@@ -39,7 +39,7 @@
 - 告警必须具备冷却窗口与去重键：`(user_id, rule_id, fund_code, window_start)`
 
 ## 7) 快速命令清单（按仓库实际情况替换）
-- 安装依赖：`pip install -r requirements.txt`
+- 安装依赖：用uv
 - 运行测试：`pytest -q`
 - 启动 bot：`python -m bot.main`
 - 启动 worker：`python -m jobs.worker`
